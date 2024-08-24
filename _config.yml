@@ -1,8 +1,8 @@
 title: Shreya Nalluri
 author: Shreya Nalluri
 url: https://www.shreyanalluri.github.io # root address of the site
-description: > # description of the site (
-Hi! I’m Shreya, a bioinformatician, with interests in large-scale multiomics, reproductive health, and metagenomics. You can read more about me here. I write recipes and occasionally blog.
+description: > # description of the site 
+    Hi! I’m Shreya, a bioinformatician, with interests in large-scale multiomics, reproductive health, and metagenomics. You can read more about me here. I write recipes and occasionally blog.
 
 permalink: /:slug
 
