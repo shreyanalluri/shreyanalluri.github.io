@@ -7,7 +7,7 @@ navbar_entries:
 
 project_entries:
   - title: ChIPseq pipeline
-    url: chipseq_pipeline.md
+    url: chipseq-pipeline
     desc: Analysis of the human transcription factor Runx1
 
   - title: Rshiny App
