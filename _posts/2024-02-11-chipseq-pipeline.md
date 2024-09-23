@@ -5,7 +5,10 @@ This was an integrated analysis of bulk RNA-seq and ChIP-seq to investigate the 
 ### Tools used:
 fastqc, trimmomatic, Bowtie2, samtools, multiqc, deeptools, HOMER, bedtools, UCSC genome browser, snakemake, Python 
 
-### Methods: 
+### Results 
+
+
+### Methods 
 #### *QC, Trimming, and Alignment* 
 
 Full fastq files for IP and Input control samples were downloaded via ftp links from the NCBI Gene Expression Omnibus (GEO accession number GSE75070).These fastq files were inspected for quality control using fastqc v0.12.1-0. Once QC checked, the reads were trimmed of adapters using trimmomatic v0.39. Bowtie2 v2.5.3 was used to create an index of the entire human genome using the GENCODE hg38 primary assembly for use in alignment.
@@ -23,4 +26,6 @@ The score matrix for each IP replicate was computed using deeptools v3.5.4 compu
 #### *Integration with RNA-seq*
 
 The peak calling results were integrated with RNAseq results to determine how often a Runx1 binding peak was observed in genes that were found to be differentially expressed in the same cell line upon Runx1 knockdown using a shRNA. A table of differentially expressed genes was downloaded from NCBI Gene Expression Omnibus GSE75070, and filtered according to the original publication's parameters: p-adjusted < 0.01 and abs(log2foldchange) > 1.
+
+
 
