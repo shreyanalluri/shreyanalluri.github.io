@@ -1,4 +1,4 @@
-#ChIPseq analysis of the human transcription factor Runx1
+# ChIP-seq analysis of the human transcription factor Runx1
 
 This was an integrated analysis of bulk RNA-seq and ChIP-seq to investigate the role of Runx1 in the MCF7 cell line, a model line used for the study of breast cancer.
 
