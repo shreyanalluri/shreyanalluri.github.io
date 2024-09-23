@@ -22,5 +22,5 @@ The score matrix for each IP replicate was computed using deeptools v3.5.4 compu
 
 #### *Integration with RNA-seq*
 
-The peak calling results were integrated with RNAseq results to determine how often a Runx1 binding peak was observed in genes that were found to be differentially expressed in the same cell line upon Runx1 knockdown using a shRNA. A table of differentially expressed genes was downloaded from NCBI Gene Expression Omnibus GSE75070, and filtered according to the original publication's parameters: p-adjusted < 0.01 and (|log2foldchange|) > 1.
+The peak calling results were integrated with RNAseq results to determine how often a Runx1 binding peak was observed in genes that were found to be differentially expressed in the same cell line upon Runx1 knockdown using a shRNA. A table of differentially expressed genes was downloaded from NCBI Gene Expression Omnibus GSE75070, and filtered according to the original publication's parameters: p-adjusted < 0.01 and abs(log2foldchange) > 1.
 
